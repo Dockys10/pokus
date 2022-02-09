@@ -16,5 +16,13 @@ namespace pokus
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            int box1 = Convert.ToInt32(textBox1.Text);
+            int box2 = Convert.ToInt32(textBox2.Text);
+            int soucet = box1 + box2;
+            label1.Text = "soucet je "+ soucet;
+        }
     }
 }
