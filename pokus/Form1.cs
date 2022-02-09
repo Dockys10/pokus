@@ -25,6 +25,8 @@ namespace pokus
             label1.Text = "soucet je "+ soucet;
             int odcitani = box1 - box2;
             label2.Text = "odecteni je " + odcitani;
+            int nasobeni = box1 * box2;
+            label3.Text = "nasobeni je " + nasobeni;
         }
     }
 }
